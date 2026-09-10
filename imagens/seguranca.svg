@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+    <rect width="600" height="400" fill="#dbeafe"/>
+    <circle cx="300" cy="190" r="120" fill="#2563eb"/>
+    <path d="M300 80 L400 120 V200 C400 270 350 315 300 335 C250 315 200 270 200 200 V120 Z"
+          fill="#ffffff"/>
+    <path d="M300 115 L365 140 V200 C365 245 335 275 300 292 C265 275 235 245 235 200 V140 Z"
+          fill="#2563eb"/>
+    <path d="M270 200 L290 220 L335 170"
+          fill="none"
+          stroke="#ffffff"
+          stroke-width="16"
+          stroke-linecap="round"
+          stroke-linejoin="round"/>
+    <text x="300" y="370"
+          text-anchor="middle"
+          font-family="Arial"
+          font-size="22"
+          fill="#1e3a8a">
+        Segurança Digital
+    </text>
+</svg>

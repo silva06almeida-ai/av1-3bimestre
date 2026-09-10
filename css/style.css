@@ -1,0 +1,131 @@
+:root {
+    --azul-principal: #2563eb;
+    --azul-escuro: #0f172a;
+    --cinza-fundo: #f8fafc;
+    --texto: #1e293b;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    color: var(--texto);
+    background-color: white;
+    padding-top: 56px;
+}
+
+.navbar-brand {
+    letter-spacing: -0.5px;
+}
+
+.navbar {
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.15);
+}
+
+.hero-section {
+    min-height: 650px;
+    display: flex;
+    align-items: center;
+    color: white;
+    background:
+        linear-gradient(135deg, #0f172a 0%, #1e3a8a 55%, #2563eb 100%);
+    padding: 80px 0;
+}
+
+.hero-section h1 {
+    letter-spacing: -2px;
+}
+
+.hero-image {
+    max-height: 400px;
+    filter: drop-shadow(0 20px 30px rgba(0, 0, 0, 0.25));
+}
+
+.page-header {
+    background:
+        linear-gradient(135deg, #0f172a, #1e3a8a);
+    color: white;
+    padding: 100px 0 80px;
+}
+
+.card {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(15, 23, 42, 0.12) !important;
+}
+
+.card-img-top {
+    height: 210px;
+    object-fit: cover;
+    background-color: #eff6ff;
+}
+
+.icon-box {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: #dbeafe;
+    font-size: 28px;
+}
+
+section {
+    overflow: hidden;
+}
+
+.footer {
+    margin-top: 0;
+}
+
+.table {
+    background-color: white;
+}
+
+.form-control,
+.form-select {
+    min-height: 48px;
+}
+
+textarea.form-control {
+    min-height: 140px;
+}
+
+.btn {
+    border-radius: 8px;
+}
+
+.alert {
+    border-radius: 12px;
+}
+
+@media (max-width: 768px) {
+
+    .hero-section {
+        min-height: auto;
+        padding: 70px 0;
+    }
+
+    .hero-section h1 {
+        font-size: 2.4rem;
+    }
+
+    .page-header {
+        padding: 70px 0 55px;
+    }
+
+    .display-5 {
+        font-size: 2.2rem;
+    }
+
+}
