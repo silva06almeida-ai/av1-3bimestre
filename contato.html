@@ -111,7 +111,7 @@
                             Formulário de sugestão
                         </h2>
 
-                        <form>
+                        <form id="formContato">
 
                             <div class="row g-3">
 
@@ -296,6 +296,21 @@
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 
-</body>
+
+<script>
+   
+    const formulario = document.getElementById("formContato");
+
+    formulario.addEventListener("submit", function(event) {
+        event.preventDefault();
+
+        const nome = document.getElementById("nome").value;
+
+        alert("Obrigado pela sugestão, " + nome + "!");
+
+        formulario.reset();
+    });
+</script>
+\n</body>
 
 </html>
